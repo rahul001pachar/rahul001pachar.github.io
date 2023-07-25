@@ -1,0 +1,566 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Portfolio | Rahul Pachar</title>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <meta property="og:image" content="images/avatar.png" />
+    <meta property="og:description"
+        content="Hi there 👋 ! This is Rahul Pachar, a Full stack software developer. Check My Portfolio." />
+    <meta property="og:url" content="https://rahul001pachar.github.io" />
+    <meta property="og:title" content="Portfolio | Rahul Pachar" />
+    <meta property="og:type" content="website" />
+
+    <link rel="manifest" href="/site.webmanifest">
+    <meta [name="theme-color" ] content="#ffffff" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Hi there 👋 ! I'm is Rahul Pachar, a Frontend software developer. Check My Portfolio." />
+    <meta name="keywords"
+        content="rahul, pachar, rahul pachar, rahul pachar portfolio, rahul pachar software engineer, software engineer , rahul pachar website, rahul pachar JIIT, resume, portfolio, frontend, web development">
+    <link rel="stylesheet" href="assets/css/loader.min.css" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGRKZHQ3GB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CGRKZHQ3GB');
+    </script>
+</head>
+
+<body class="is-preload light">
+    <!-- Header -->
+    <div class="display-none overlay"></div>
+    <div id="loading">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <button class="btn btn-light flex-center shadow" id="themeToggler" onclick='toggle(this)' value='Light'
+        name="themeToggle">
+
+        <img src='/images/sun.svg' alt='themeIcon' id='theme' style="background-color: transparent;" />
+    </button>
+
+    <button class="btn btn-scroll flex-center shadow hide" id="scrollTop" onclick='topFunction(this)' name="scrollTop">
+
+        <!-- <img src='/images/sun.png' alt='themeIcon' id='theme' style="background-color: transparent;" /> -->
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <nav class="navbar navbar-expand ">
+
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link" href="#one">
+                    <i class="icon solid fa-user mr-1 "></i>
+                    About Me</a>
+                <a class="nav-item nav-link" href="#two">
+                    <i class="icon solid fa-briefcase mr-1 "></i>
+                    Work Experience</a>
+                <a class="nav-item nav-link" href="#three">
+                    <i class="icon solid fa-code-branch mr-1 "></i>
+                    Projects</a>
+                <a class="nav-item nav-link" href="#five">
+                    <i class="icon solid fa-cogs mr-1 "></i>
+                    My Skills</a>
+                <a class="nav-item nav-link" href="#four">
+                    <i class="icon solid fa-phone mr-1 "></i>
+                    Contact</a>
+            </div>
+        </nav>
+        <nav class="sidebar hidden">
+            <div class="sidebar-container">
+                <span class="close" onclick="closeSidebar()">
+                    <i class="icon solid fa-arrow-left "></i>
+                </span>
+
+                <div>
+                    <a class="nav-item nav-link" href="#one">
+                        <i class="icon solid fa-user "></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#two">
+                        <i class="icon solid fa-briefcase "></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#three">
+                        <i class="icon solid fa-code-branch "></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#five">
+                        <i class="icon solid fa-cogs "></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#four">
+                        <i class="icon solid fa-phone "></i>
+                    </a>
+                </div>
+                <a class="nav-item nav-link logo" href="#">
+                    <img src="/favicon-32x32.png" alt="">
+                </a>
+            </div>
+        </nav>
+
+    </div>
+    <header id="header">
+        <div class="inner">
+            <div class="container" style="background-color: transparent;">
+                <a href="#" name="image" class="image avatar"><img loading='lazy' id="avatar" src="images/avatar.png"
+                        alt="avatar" style="background:transparent" /></a>
+
+                <h1>
+                    <span class="ml10"><span class="text-wrapper"><span class="letters">I am
+                                Rahul,</span></span></span> A
+                    Frontend Web
+                    Developer<br>
+                </h1>
+                <br>
+                <a href='./images/resume.pdf' target="_blank" rel="noreferrer"
+                    class="btn btn-outline-light glow-on-hover">View Resume<i class="fa fa-download ml-1"></i></a>
+                <br>
+            </div>
+
+        </div>
+    </header>
+    <!-- Main -->
+    <div id="main">
+        <!-- One -->
+        <section id="one">
+            <header class="major">
+                <h2>About Me<br /></h2>
+            </header>
+            <p>
+            <h3 class="col-text">Hello <span class="text-warning"> &#128075</span> ! My name is Rahul Pachar. I am a
+                <strong class="text-highlight">Frontend web
+                    developer.</strong>
+            </h3>
+            <p>
+                I am a highly skilled and experienced web developer with a <strong class="text-highlight">Bachelor's
+                    degree
+                    in Computer Science</strong> from <strong class="text-highlight">JIIT Noida</strong>.
+
+                <!-- My expertise lies primarily in front-end web development, utilizing a variety of 
+                modern
+                frameworks and
+                technologies.
+                <br><br>
+                In terms of front-end development, I am proficient in <strong class="text-highlight">React, Angular,
+                    SCSS,
+                    Bootstrap, and TailwindCSS</strong>. I also have experience with web
+                sockets, Git, and Dev-ops <strong class="text-highlight">CI/CD and Jenkins</strong>.
+                My
+                proficiency in multiple programming languages
+                including <strong class="text-highlight">C++, C, Java, Python, and Javascript</strong> has given me a
+                broad
+                understanding of software development principles.
+                <br><br>
+                Throughout my career, I have worked on a variety of projects ranging from e-commerce platforms to social
+                media networks.
+                I am highly detail-oriented and take pride in delivering clean, efficient, and scalable code that meets
+                the
+                needs of
+                clients and end-users alike.Moreover, I am a team player, with strong communication and collaboration
+                skills. I enjoy working closely
+                with clients,
+                designers, and other developers to ensure that projects are completed successfully and to the highest
+                standards. -->
+                My passion lies in Ethical Hacking, Machine Learning, and
+                Algorithms & Data Structures. I possess expertise in an array of programming languages, including<strong
+                    class="text-highlight">
+                    JavaScript, Typescript, C, C++, Java, and front-end technologies like Tailwind CSS, Bootstrap,
+                    HTML5,
+                    and CSS3.</strong> My proficiency extends to frameworks such as <strong
+                    class="text-highlight">React.js and Node.js,</strong> and I am well-versed in
+                essential tools like <strong class="text-highlight">GIT, GitHub, MySQL, Metasploit, BeeF, Unix, and
+                    CI/CD.</strong>
+
+                Throughout my academic journey, I have actively engaged in coding competitions, earning a spot among the
+                Top 3000 on HackerRank worldwide and being recognized as a runner-up in the prestigious IEEE XENITH 2022
+                Coding Contest. To bolster my skills, I completed certifications in <strong
+                    class="text-highlight">Advanced C/C++</strong> from Udemy, where I
+                honed my abilities in implementing Data Structures and assessing algorithm efficiency. Additionally, I
+                completed the <strong class="text-highlight">Foundations of Cybersecurity</strong> course on Coursera,
+                gaining valuable insights into network
+                security and risk mitigation techniques. With a strong foundation in theoretical concepts and practical
+                applications, I am eager to contribute my technical prowess and enthusiasm to any tech-focused team,
+                seeking new challenges and innovative solutions in the ever-evolving world of technology.
+            </p>
+            <!-- I have a diverse set of skills ranging from front-end technologies as
+            <strong class="text-highlight">ReactJS, CSS, J
+                Query, Angular</strong> to backend techs as <strong class="text-highlight"> NodeJS, Deno JS,
+                MongoDB, Firebase</strong> using <strong class="text-highlight">REST API and Graphql</strong>.<br> Also
+            experienced in other technologies as <strong class="text-highlight">Web Sockets, Git and Cloud services
+                (Google
+                cloud,
+                Azure)</strong> .
+            <br> I am also proficient in various programming languages as<strong class="text-highlight"> C++, C, Java,
+                Python, Javascript .</strong> <br><br>I completed my bachelor's degree in Information
+            Technology from <strong class="text-highlight"> VIT, Vellore</strong> in 2022. -->
+            </p>
+            <!-- Full Stack Developer
+            Self taught web developer that is always looking to grow and improve. I am a passionate learner that is always eager to
+            gain more experience. Learning to program has been a passion of mine for many years now, because there is always
+            something new to learn. I enjoy solving real life problems by developing technologies that solve them. -->
+
+        </section>
+        <!-- two -->
+        <section id="two">
+            <header class="major">
+                <h2>Work Experience</h2>
+            </header>
+            <div class="hideme">
+                <div class="row">
+                    <div class="col-md-12 pl-3">
+                        <div class="timeline-content" id='card'>
+                            <div class="card-body" style='padding:10px'>
+                                <div id="content">
+                                    <ul class="timeline">
+                                        <li class="event" data-date="May 2022 - July 2022">
+                                            <h3>Software Developer</h3>
+                                            <p>Software Developer Intern at <a href="/">X.Args</a>
+                                            </p>
+                                        </li>
+                                        <li class="event" data-date="Mar 2021 - Apr 2022">
+                                            <h3>Teaching Assistant</h3>
+                                            <p>Teaching Assistant at <a href="/">IEEE</a>
+                                            </p>
+                                        </li>
+                                        <li class="event" data-date="Dec 2020 - Feb 2021">
+                                            <h3>Machine Learning Engineer</h3>
+                                            <p>Optimized model behaviour using MIT findings <a href="/">ucr-JIIT</a> , a
+                                                student chapter
+                                                in
+                                                JIIT, Noida
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <ul class="actions">
+                        <li><a href="#" class="button">Full Portfolio</a></li>
+                    </ul> -->
+        </section>
+        <!-- three -->
+        <section id="three">
+            <header class="major">
+                <h2>Projects</h2>
+            </header>
+            <div class="row justify-content-between work-container">
+                <article class="col-12 col-md-11  work-item hideme">
+                    <a href="images/fulls/edu_track.jpeg" class=" image fit thumb"><img loading='lazy'
+                            src="images/fulls/edu_track.jpeg" alt="" /></a>
+                    <h3>Edu-Track <span class='float-right mr-1'>
+                            <a href="https://github.com/orgs/Edu-Track/" class='icon brands fa-github projects'></a>
+                        </span>
+                        <span class='float-right mr-3'>
+                            <a href="https://github.com/orgs/Edu-Track/" class='icon brands fa-chrome projects'></a>
+                        </span>
+                    </h3>
+                    <p>A comprehensive Full-stack web application for potent school management system</p>
+                </article>
+                <article class="col-12 col-md-11  work-item hideme">
+                    <a href="images/fulls/07.webp" class=" image fit thumb"><img loading='lazy'
+                            src="images/fulls/07.webp" alt="" /></a>
+                    <h3>DetectNow <span class='float-right mr-1'>
+                            <a href="https://github.com/rahul001pachar/detect_now"
+                                class='icon brands fa-github projects'></a>
+                        </span>
+                    </h3>
+                    <p>A Disease Predictor App utilizing a Supervised ML Algorithm</p>
+
+                </article>
+                <article class="col-12 col-md-11  work-item hideme">
+                    <a href="images/fulls/10.webp" class=" image fit thumb"><img loading='lazy'
+                            src="images/fulls/10.webp" alt="" /></a>
+                    <h3>NP Hard Solver <span class='float-right mr-3'><a
+                                href="https://github.com/rahul001pachar/Hybridization-of-PSO-and-GWO"
+                                class='icon brands fa-github'></a></span>
+                    </h3>
+                    <p>Developed an ML model that reduces time complexity of NP hard problems to polynomial time using
+                        python and Deep
+                        learning </p>
+                </article>
+
+            </div>
+            <!-- <ul class="actions">
+                <li><a href="#" class="button">Full Portfolio</a></li>
+            </ul> -->
+        </section>
+        <!-- three -->
+        <section id="five">
+            <header class="major">
+                <h2>My Skills</h2>
+            </header>
+            <div class="container px-0 ">
+                <div class="hideme">
+                    <div class=" block-card p-3" onclick="toggleField(event,'front')" style="cursor:pointer"
+                        id='frontHeader'>
+                        <h3 class="mb-0"><span>
+                                <i class="fab fa-js"></i>
+                            </span> Front-end Web Development
+                            <span class="float-right" style="cursor:pointer"><i class="fa fa-lg fa-angle-down"
+                                    id="front-toggle"></i></span>
+                        </h3>
+                    </div>
+                </div>
+                <div id="front">
+                    <div class="card col-12-large col-12-small my-4 skill" style='border-radius:.4rem'>
+                        <h3 class="card-title pl-3 my-1 mx-1">HTML</h3>
+                        <hr class="mb-2 mt-0 hr-purple">
+                        <div class="card-text m-2 row justify-content-around">
+                            <div class="py-1 px-3 my-auto col-4-large col-4-xsmall">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/html5.png"
+                                    alt="image">
+                                <p class='my-2 text-skill'>HTML</p>
+                            </div>
+
+                            <div class="py-1 px-2 my-auto col-4-large col-4-xsmall">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/react.webp"
+                                    alt="image">
+                                <p class='my-2 text-skill'>JSX</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-12-large col-12-small my-4 skill " style='border-radius:.4rem'>
+
+                        <h3 class="card-title pl-3 m-1">CSS</h3>
+                        <hr class="mb-2 mt-0  hr-purple">
+                        <div class="card-text m-2 row justify-content-around">
+                            <div class="py-1 px-2 my-auto col-3-large col-6-xsmall">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/scss.png" alt="image">
+                                <p class='my-2 text-skill'>Scss</p>
+                            </div>
+                            <div class="py-1 px-2 my-auto col-3-large col-6-xsmall">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/tailwindcss.svg"
+                                    alt="image">
+                                <p class='my-2 text-skill'>Tailwind CSS</p>
+                            </div>
+                            <div class="py-1 px-2 my-auto col-3-large col-6-xsmall">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/bootstrap.png"
+                                    alt="image">
+                                <p class='my-2 text-skill'>Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12-large col-12-small my-4 skill " style='border-radius:.4rem'>
+                        <h3 class="card-title pl-3 m-1">JavaScript</h3>
+                        <hr class="mb-2 mt-0 hr-purple">
+                        <div class="card-text m-2 row justify-content-around">
+                            <div class="py-1 px-2 my-auto  col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/react.webp"
+                                    alt="image">
+                                <p class='my-2 text-skill'>React</p>
+                            </div>
+
+                            <div class="py-1 px-2 my-auto  col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/angular.png"
+                                    alt="image">
+                                <p class='my-2 text-skill'>Angular</p>
+
+                            </div>
+
+                            <div class="py-1 px-2 my-auto  col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/ts.png" alt="image">
+                                <p class='my-2 text-skill'>TypeScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hideme">
+                    <div class=" block-card p-3 mt-3" onclick="toggleField(event,'comp')" style="cursor:pointer"
+                        id='compHeader'>
+                        <h3 class="mb-0"><span><i class="fa fa-laptop-code"></i></span>
+                            Programming Languages
+                            <span class="float-right" style="cursor:pointer"><i id="comp-toggle"
+                                    class="fa fa-lg fa-angle-down"></i></span>
+                        </h3>
+                    </div>
+                </div>
+                <div id='comp'>
+                    <div class="card col-12-large col-12-small my-4 skill " style='border-radius:.4rem'>
+                        <h3 class="card-title pl-3 m-1">Languages</h3>
+                        <hr class="mb-2 mt-0 hr-purple">
+                        <div class="card-text m-2 row justify-content-around">
+                            <div class="py-1 px-2 my-auto col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/c.png" alt="image">
+                                <p class='my-2 text-skill'>C</p>
+                            </div>
+                            <div class="py-1 px-2 my-auto col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/cpp.png" alt="image">
+                                <p class='my-2 text-skill'>C++</p>
+                            </div>
+                            <div class="py-1 px-2 my-auto col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/java.png" alt="image">
+                                <p class='my-2 text-skill'>Java</p>
+                            </div>
+                            <div class="py-1 px-2 my-auto col-3-large col-6-small">
+                                <img loading='lazy' class="mx-auto d-block img-fluid" src="images/python.png"
+                                    alt="image">
+                                <p class='my-2 text-skill'>Python</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </section>
+        <!-- Four -->
+        <section id="four">
+            <header class="major">
+                <h2>Get In Touch</h2>
+            </header>
+            <div class="row p-0" style="min-height:65vh">
+                <div class="col-12 col-lg-5 row align-content-center  d-flex flex-row">
+                    <div class="form-group col-12 mb-3">
+                        <!-- <div class="input-group-prepend">
+                                                <span class="input-group-text " id="basic-addon1"><i
+                                                        class="icon solid fa-envelope"></i></span>
+                                            </div> -->
+                        <label for="name">Your Name</label>
+
+                        <input type="text" class="form-control" id="name" placeholder="John Doe" aria-label="Email"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="form-group col-12 mb-2">
+
+                        <label for="email">Your Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="xyz@gmail.com"
+                            aria-label="Email" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="form-group col-12 mb-2">
+
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" rows="5" id="message" placeholder="Enter your message ..."
+                            aria-label="Email" aria-describedby="basic-addon1"></textarea>
+                    </div>
+                    <div class="form-group col-12 mt-2">
+
+
+                        <a href="javascript:mailTo()" class="form-control btn btn-primary">Send
+                            Message <i class="icon solid fa-paper-plane"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-lg-7 mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=bellandur&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                <li><a name='WhatsApp' href="https://wa.me/+919992187950" class="icon brands fa-whatsapp">
+                        <span class="label">WhatsApp</span></a></li>
+                <li><a name='LinkedIn' href="https://www.linkedin.com/in/rahul-pachar-539b42197/"
+                        class="icon brands fa-linkedin">
+                        <span class="label">LinkedIn</span></a></li>
+                <li><a name='Github' href="https://github.com/rahul001pachar" class="icon brands fa-github">
+                        <span class="label">Github</span></a></li>
+                <li><a name="Instagram" href="https://www.instagram.com/rahul001pachar/"
+                        class="icon brands fa-instagram">
+                        <span class="label">Instagram</span></a></li>
+                <li><a name="mail" href="mailto:rahulpachar0786@gmail.com?subject=Feedback"
+                        class="icon solid fa-envelope">
+                        <span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li style='color:#a9a9a9'>&copy; Rahul Pachar</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/js/theme.min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('./sw.js')
+                .then(function () {
+                    console.log("Service Worker Registered");
+                });
+        }
+        let loaded = false;
+        const loader = (css, js, postJS) => {
+            var total = css.length + js.length,
+                now = 0, s;
+
+            var ready = () => {
+                now++;
+                if (now == total) { loaded = true; document.getElementById("loading").remove(); }
+            };
+
+            css.forEach((url, i) => {
+                s = document.createElement("link");
+                s.rel = "stylesheet";
+                s.href = url;
+                s.onload = ready; s.onerror = ready;
+                document.head.appendChild(s);
+            });
+
+            js.forEach((url, i) => {
+                s = document.createElement("script");
+                s.src = url;
+                s.onload = ready; s.onerror = ready;
+                document.head.appendChild(s);
+            });
+            postJS.forEach((url, i) => {
+                s = document.createElement("script");
+                s.src = url;
+                s.onload = ready; s.onerror = ready;
+                document.body.appendChild(s);
+            });
+        }
+        const js = ["https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js",
+            "assets/js/jquery.min.js",
+            "assets/js/jquery.poptrox.min.js",
+            "assets/js/browser.min.js",
+            "assets/js/breakpoints.min.js",
+        ]; const postJS = ["assets/js/toggle.js",
+            "assets/js/util.min.js",
+            "assets/js/slidein.min.js",
+            "assets/js/main.min.js",]
+        window.onload = () =>
+            loader(["https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Open+Sans&display=swap",
+                "/assets/css/timeline.min.css",
+                "assets/css/bootstrap.css",
+                "assets/css/fontawesome-all.min.css",
+                "assets/css/main.min.css"
+            ], [], ["assets/js/breakpoints.min.js", "assets/js/main.min.js", "assets/js/util.min.js"]);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/toggle.js"></script>
+    <script src="assets/js/slidein.min.js"></script>
+    <script src="assets/js/navState.min.js"></script>
+    <script src="assets/js/mobileFunctions.min.js"></script>
+
+</body>
+
+</html>
